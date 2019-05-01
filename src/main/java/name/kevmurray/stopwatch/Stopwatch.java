@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-class Stopwatch {
+public class Stopwatch {
 
 	private final Deque<Event> stack = new LinkedList<>();
 	private final Map<String, Event> events = new HashMap<>();
